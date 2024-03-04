@@ -61,7 +61,6 @@ button{
 
 Untuk selanjutnya kita lanjut menggunakan code pemrograman html contohnya seperti dibawah ini:
 
-<html>
 
 <head>
 
@@ -125,7 +124,6 @@ Untuk selanjutnya kita lanjut menggunakan code pemrograman html contohnya sepert
   
 	 </body>
   
-</html>
 
 Dan hasil nya seperti dibawah ini:
 
