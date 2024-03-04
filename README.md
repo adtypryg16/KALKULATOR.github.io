@@ -58,3 +58,71 @@ button{
 			 border:solid 4px;
 			 background:linear-gradient(gray,white);
 			 }
+
+Untuk selanjutnya kita lanjut menggunakan code pemrograman html contohnya seperti dibawah ini:
+
+<html>
+
+<head>
+
+</head>
+
+     <body>
+     
+	 <center>
+  
+	 <div class=main>
+  
+	 <h1>KALKULATOR</h1>
+  
+	 <form name="form">
+  
+	 <input name="textinput" class="textinput">
+  
+	 </form>
+  
+	     <table>
+      
+		     <tr>
+       
+			 <td><button onclick="clean()">C</button></td>
+			 <td><button onclick="back()">DEL</button></td>
+			 <td><button onclick="insert('*')">*</button></td>
+			 <td><button onclick="insert('/')">/</button></td>
+			 </tr>
+			 
+			 <tr>
+			 <td><button onclick="insert('1')">1</button></td>
+			 <td><button onclick="insert('2')">2</button></td>
+			 <td><button onclick="insert('3')">3</button></td>
+			 <td><button onclick="insert('+')">+</button></td>
+			 </tr>
+			 
+			 <tr>
+			 <td><button onclick="insert('4')">4</button></td>
+			 <td><button onclick="insert('5')">5</button></td>
+			 <td><button onclick="insert('6')">6</button></td>
+			 <td><button onclick="insert('-')">-</button></td>
+			 </tr>
+			 
+			 <tr>
+			 <td><button onclick="insert('7')">7</button></td>
+			 <td><button onclick="insert('8')">8</button></td>
+			 <td><button onclick="insert('9')">9</button></td>
+			 <td rowspan="2"><button style="height:165" onclick="calculate()">=</button></td>
+			 </tr>
+			 
+			 <tr>
+			 <td colspan="2"><button style="width:164" onclick="insert('0')">0</button></td>
+			 <td><button onclick="insert('.')">.</button></td>
+			 </tr>
+			 
+	     </table>
+      
+	 </div>
+  
+	 </center>
+  
+	 </body>
+  
+</html>
