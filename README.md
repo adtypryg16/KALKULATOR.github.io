@@ -32,3 +32,29 @@ pertama tama kita harus membuat java script dahulu seperti contoh dibawah sini
 
 na selanjutnya kita memasukan code css supaya tampilan dari program kita bagus dan cantik untuk di lihat
 karena dalam pemrograman itu dilihat ui/ux nya contoh css nya seperti dibawah ini:
+
+
+button{
+
+		     width:80;
+			 height:80;
+			 border:solid;
+			 font-size:25;
+			 }
+    
+		 .textinput{
+   
+		     width:335;
+			 height:50;
+			 border:solid;
+			 color:black;
+			 font-size:25;
+			 }
+    
+		 .main{
+   
+		     width:350;
+		     position:center;
+			 border:solid 4px;
+			 background:linear-gradient(gray,white);
+			 }
