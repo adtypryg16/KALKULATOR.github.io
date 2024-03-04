@@ -29,3 +29,6 @@ pertama tama kita harus membuat java script dahulu seperti contoh dibawah sini
 		 document.form.textinput.value=eval(text)
    
 		 }
+
+na selanjutnya kita memasukan code css supaya tampilan dari program kita bagus dan cantik untuk di lihat
+karena dalam pemrograman itu dilihat ui/ux nya contoh css nya seperti dibawah ini:
